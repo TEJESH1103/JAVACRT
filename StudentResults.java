@@ -125,7 +125,7 @@ private static void failSubject(String math,String sci,String eng) {
 		if (students[i].sci < 35){
 			System.out.println("Student"+(i+1)+" failed in Science with marks "+students[i].sci);
 		}//if
-		if (students[i].maths < 35){
+		if (students[i].eng < 35){
 			System.out.println("Student"+(i+1)+" failed in English with marks "+students[i].eng);
 		}//if
 		}//for
