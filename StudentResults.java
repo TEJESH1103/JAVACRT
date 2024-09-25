@@ -123,10 +123,10 @@ private static void failSubject(String math,String sci,String eng) {
 			System.out.println("Student"+(i+1)+" failed in Maths with marks "+students[i].maths);
 		}//if
 		if (students[i].sci < 35){
-			System.out.println("Student"+(i+1)+" failed in Science with marks "+students[i].maths);
+			System.out.println("Student"+(i+1)+" failed in Science with marks "+students[i].sci);
 		}//if
 		if (students[i].maths < 35){
-			System.out.println("Student"+(i+1)+" failed in English with marks "+students[i].maths);
+			System.out.println("Student"+(i+1)+" failed in English with marks "+students[i].eng);
 		}//if
 		}//for
 }
